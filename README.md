@@ -3,7 +3,19 @@
 A fully automated GitHub repository analyzer that counts lines of code across all your repositories and updates stats dynamically. Runs on the default branch of each repo and skips forks.
 
 <!-- LANGUAGES BREAKDOWN START -->
+```
+[ LANGUAGES BREAKDOWN ]
 
+JavaScript   --> 372,969 lines
+TypeScript   --> 108,652 lines
+JSX          --> 20,261 lines
+Vue.js       --> 0 lines
+PHP          --> 5,248 lines
+C#           --> 0 lines
+Other        --> 9,961 lines
+
+[ TOTAL LINES OF CODE: 517,091 ]
+```
 <!-- LANGUAGES BREAKDOWN END -->
 *Stats update automatically via GitHub Actions.*
  
