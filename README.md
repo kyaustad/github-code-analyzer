@@ -3,25 +3,13 @@
 A fully automated GitHub repository analyzer that counts lines of code across all your repositories and updates stats dynamically. Runs on the default branch of each repo and skips forks.
 
 <!-- LANGUAGES BREAKDOWN START -->
-```
-[ LANGUAGES BREAKDOWN ]
 
-JavaScript   --> 372,969 lines
-TypeScript   --> 108,652 lines
-JSX          --> 20,261 lines
-Vue.js       --> 0 lines
-PHP          --> 5,248 lines
-C#           --> 0 lines
-Other        --> 9,961 lines
-
-[ TOTAL LINES OF CODE: 517,091 ]
-```
 <!-- LANGUAGES BREAKDOWN END -->
 *Stats update automatically via GitHub Actions.*
  
 ## How It Works  
 This GitHub Action automatically fetches all your public repositories (excluding forks), clones the **default branch**, and analyzes lines of code using [`cloc`](https://github.com/AlDanial/cloc). It then updates the repository’s `README.md` with the latest code statistics. The workflow runs **by default every Sunday at midnight UTC (customizable)**, keeping your stats up to date.
- 
+
 ## Usage
 
 ### **Setting Up the GitHub Action**
@@ -41,7 +29,13 @@ This GitHub Action automatically fetches all your public repositories (excluding
    - Name the secret **`GH_PAT`**  
    - Paste the generated token and save.
 
-4. **Trigger the Workflow**
+4. **Update Workflow Permissions**  
+   In the repository where you're running the action, make sure to update workflow permissions:
+   - Go to **Settings → Actions → General**.
+   - Under **Workflow permissions**, select **"Read and write permissions"**.
+   - This allows the workflow to update files like `README.md` automatically.
+
+5. **Trigger the Workflow**
    - The workflow runs **by default every Sunday at midnight UTC (customizable)**.
    - To **run manually**, go to **GitHub Actions → Select Workflow → Run Workflow**.
    - To **run on every push**, modify the workflow's `on:` section to:
@@ -52,29 +46,18 @@ This GitHub Action automatically fetches all your public repositories (excluding
            - main
      ```
    
-5. **Wait for Processing**  
+6. **Wait for Processing**  
    The time taken depends on the number of repositories and their sizes. Once completed, your `README.md` will be updated with the latest **lines of code breakdown**.
 
-6. **Ensure Placeholders Are Present**  
+7. **Ensure Placeholders Are Present**  
    To allow automatic updates, your `README.md` must include the following placeholders:
    ```
-   <!-- LANGUAGES BREAKDOWN START -->
-```
-[ LANGUAGES BREAKDOWN ]
+    <!-- LANGUAGES BREAKDOWN (STATIC EXAMPLE) START -->
 
-JavaScript   --> 372,969 lines
-TypeScript   --> 108,652 lines
-JSX          --> 20,261 lines
-Vue.js       --> 0 lines
-PHP          --> 5,248 lines
-C#           --> 0 lines
-Other        --> 9,961 lines
-
-[ TOTAL LINES OF CODE: 517,091 ]
-```
-   <!-- LANGUAGES BREAKDOWN END -->
+    <!-- LANGUAGES BREAKDOWN (STATIC EXAMPLE) END -->
    ```
-   The workflow will update the stats between these markers.
+   The workflow will update the stats between these markers.  
+   *Remove `(STATIC EXAMPLE)` when adding it in your README, as it's just a placeholder. It's included here only to prevent automatic updates in this README.*
 
 ### **Configure Language Detection**
 By default, the workflow excludes some file types from counting:
@@ -100,5 +83,3 @@ This feature will be updated shortly.
 ## Contributing
  
 Contributions are welcome! Feel free to fork the repository, submit a PR, or open an issue.
- 
----
