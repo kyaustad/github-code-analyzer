@@ -32,6 +32,8 @@ This GitHub Action automatically fetches all your public repositories (excluding
    ```
    Then commit and push the changes.
 
+   *Make sure to update the workflow file with your GitHub username wherever required.*
+
 2. **Generate a GitHub Personal Access Token (PAT)**  
    You need a **Personal Access Token (PAT)** with **`repo`** permissions.  
    Refer to [GitHub Docs](https://github.com/settings/tokens) on how to generate one.
