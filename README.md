@@ -6,15 +6,15 @@ A fully automated GitHub repository analyzer that counts lines of code across al
 ```
 [ LANGUAGES BREAKDOWN ]
 
-JavaScript   --> 372,969 lines
-TypeScript   --> 108,652 lines
+JavaScript   --> 372,970 lines
+TypeScript   --> 108,832 lines
 JSX          --> 20,261 lines
 Vue.js       --> 0 lines
 PHP          --> 5,248 lines
 C#           --> 0 lines
 Other        --> 9,961 lines
 
-[ TOTAL LINES OF CODE: 517,091 ]
+[ TOTAL LINES OF CODE: 517,272 ]
 ```
 <!-- LANGUAGES BREAKDOWN END -->
 *Stats update automatically via GitHub Actions.*
