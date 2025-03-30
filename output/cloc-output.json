@@ -1,21 +1,21 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 5.13337397575378,
-  "n_files"            : 6346,
-  "n_lines"            : 712699,
-  "files_per_second"   : 1236.22397861012,
-  "lines_per_second"   : 138836.368315704},
+  "elapsed_seconds"    : 5.19906091690063,
+  "n_files"            : 6376,
+  "n_lines"            : 718864,
+  "files_per_second"   : 1226.37532083409,
+  "lines_per_second"   : 138268.047151204},
 "JavaScript" :{
-  "nFiles": 3525,
-  "blank": 68592,
-  "comment": 99610,
-  "code": 373089},
+  "nFiles": 3553,
+  "blank": 68726,
+  "comment": 99608,
+  "code": 374415},
 "TypeScript" :{
-  "nFiles": 2378,
-  "blank": 14391,
-  "comment": 3590,
-  "code": 110008},
+  "nFiles": 2385,
+  "blank": 14787,
+  "comment": 3584,
+  "code": 114399},
 "JSX" :{
   "nFiles": 170,
   "blank": 1923,
@@ -101,11 +101,6 @@
   "blank": 19,
   "comment": 17,
   "code": 50},
-"SQL" :{
-  "nFiles": 4,
-  "blank": 13,
-  "comment": 13,
-  "code": 45},
 "Properties" :{
   "nFiles": 6,
   "blank": 10,
@@ -136,18 +131,13 @@
   "blank": 0,
   "comment": 0,
   "code": 6},
-"TOML" :{
-  "nFiles": 1,
-  "blank": 0,
-  "comment": 2,
-  "code": 1},
 "ProGuard" :{
   "nFiles": 1,
   "blank": 3,
   "comment": 18,
   "code": 0},
 "SUM": {
-  "blank": 86816,
-  "comment": 107316,
-  "code": 518567,
-  "nFiles": 6346} }
+  "blank": 87333,
+  "comment": 107293,
+  "code": 524238,
+  "nFiles": 6376} }
