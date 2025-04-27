@@ -1,21 +1,21 @@
 {"header" : {
   "cloc_url"           : "github.com/AlDanial/cloc",
   "cloc_version"       : "1.98",
-  "elapsed_seconds"    : 5.26927590370178,
-  "n_files"            : 6396,
-  "n_lines"            : 724879,
-  "files_per_second"   : 1213.8290188044,
-  "lines_per_second"   : 137567.099018436},
+  "elapsed_seconds"    : 5.24644494056702,
+  "n_files"            : 6308,
+  "n_lines"            : 719382,
+  "files_per_second"   : 1202.33797770844,
+  "lines_per_second"   : 137117.99287886},
 "JavaScript" :{
-  "nFiles": 3549,
-  "blank": 68650,
-  "comment": 99415,
-  "code": 376228},
+  "nFiles": 3547,
+  "blank": 68647,
+  "comment": 99411,
+  "code": 376176},
 "TypeScript" :{
-  "nFiles": 2380,
-  "blank": 14750,
-  "comment": 3562,
-  "code": 113941},
+  "nFiles": 2295,
+  "blank": 13483,
+  "comment": 3442,
+  "code": 109903},
 "JSX" :{
   "nFiles": 171,
   "blank": 1923,
@@ -92,10 +92,10 @@
   "comment": 11,
   "code": 92},
 "INI" :{
-  "nFiles": 6,
-  "blank": 19,
+  "nFiles": 5,
+  "blank": 17,
   "comment": 0,
-  "code": 83},
+  "code": 72},
 "Swift" :{
   "nFiles": 1,
   "blank": 19,
@@ -142,7 +142,7 @@
   "comment": 18,
   "code": 0},
 "SUM": {
-  "blank": 87553,
-  "comment": 107315,
-  "code": 530011,
-  "nFiles": 6396} }
+  "blank": 86281,
+  "comment": 107191,
+  "code": 525910,
+  "nFiles": 6308} }
